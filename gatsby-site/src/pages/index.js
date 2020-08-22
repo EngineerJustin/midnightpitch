@@ -13,7 +13,6 @@ import fivea from "../media/fivea.jpg"
 import fiveb from "../media/fiveb.jpg"
 import four from "../media/four.gif"
 import fourteen from "../media/fourteen.png"
-import logolarge from "../media/logo-large.png"
 import logosmall from "../media/logo-small.png"
 import nine from "../media/nine.gif"
 import nineteena from "../media/nineteena.png"
@@ -64,10 +63,28 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="container">
+        <span className="header">
         <h2 className="flextitle"> Midnight City</h2>
+        <img src={logosmall} alt=""/>
+        <h2>A Black Lamb Production</h2>
+        </span>
         <Slider {...settings} className="flexslide">
           <div id="one">
+            <div>
+              <h1 id="midnight">Midnight</h1>
+              </div>
+              <div>
+              <h1 id="city">City</h1>
+              </div>
+              <div>
+              <h3 id="series">A New Series</h3>
+              </div>
+              <div>
+              <h2 id="created">Created by M. Raven Metzner and Marc Webb</h2>
+              </div>
+              <div>
               <img id="first" src={first} alt=" "/>
+              </div>
           </div>
           <div id="two">
             <img src={two} alt=" "/>
@@ -167,7 +184,7 @@ export default class SimpleSlider extends Component {
         </Slider>
         <ReactAudioPlayer className="flexplayer"
           src={senseoftouch}
-          autoPlay={true}
+          autoPlay
           controls
           loop
         />
