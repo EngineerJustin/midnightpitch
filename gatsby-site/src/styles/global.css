@@ -3,14 +3,6 @@ div {
     color: white;
 }
 
-html {
-    background-color: grey;
-}
-
-#midtest {
-    background-color: transparent;
-}
-
 #___gatsby {
     height: 100vh;
     position: relative;
