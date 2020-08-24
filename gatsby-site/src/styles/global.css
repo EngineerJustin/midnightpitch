@@ -3,6 +3,10 @@ div {
     color: white;
 }
 
+html {
+    background-color: #141414;
+}
+
 #___gatsby {
     height: 100vh;
     position: relative;
