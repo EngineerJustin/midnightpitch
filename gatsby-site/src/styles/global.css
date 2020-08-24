@@ -1,93 +1,29 @@
-.container {
-   color: white;
-   background-color: black;
-   display: flex;
-   flex-direction: column;
-   align-content: stretch;
-   padding: 1px;
-}
-
-.flextitle {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.flexslide {
-    background-color: black;
-    height: 80vh;
-    width: 90vw;
-    align-self: center;
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px;
-}
-
-.flexplayer {
-    align-self: center;
-    outline: none;
-    padding-top: 1em;
-}
-
 div {
-    background-color: black;
+    background-color: #141414;
+    color: white;
 }
 
-body {
-    background-color: black;
+html {
+    background-color: grey;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#midtest {
+    background-color: transparent;
 }
 
-#one {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#midnight {
-    z-index: 1;
-    right: 40%;
-    top: 40%;
-    font-size: 2rem;
-    position: absolute;
-}
-
-#city {
-    z-index: 1;
-    position: absolute;
-    right: 30%;
-    top: 30%;
-    font-size: 12rem;
-}
-
-#first {
+#___gatsby {
+    height: 100vh;
     position: relative;
-    width: 88%;
-    height: 60%;
-    left: 5%;
 }
 
-#series {
-    z-index: 1;
-    position: absolute;
-    right: 60%;
-    top: 70%;
-}
-
-#created {
-    z-index: 1;
-    position: absolute;
-    right: 60%;
-}
-
-#fivea {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#fiveb {
-    max-width: 100%;
-    max-height: 100%;
+#gatsby-focus-wrapper {
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
 }
